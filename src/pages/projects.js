@@ -86,7 +86,7 @@ const Project = ({ img, type, title, github, link }) => {
 
 
                 </div>
-                <div className="flex justify-between w-full mt-2">
+                <div className="flex justify-between w-full md:flex-col md:items-center mt-2">
                     <Link href={github} target="_blank" className="w-10"><GithubIcon /></Link>
                     <Link href={link} target="_blank" className="p-2 px-2 ml-4 text-lg font-semibold underline md:text-base">Visit Project</Link>
                 </div>
