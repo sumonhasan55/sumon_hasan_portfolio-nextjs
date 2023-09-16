@@ -9,6 +9,7 @@ import Project2 from "../../public/images/projects/World_News_Porlat.png";
 import Project3 from "../../public/images/projects/Developer-Portfolio.png";
 import Project4 from "../../public/images/projects/creative-agency.png";
 import Project5 from "../../public/images/projects/HTML Templete.png";
+import Project6 from "../../public/images/projects/Shhop_Angular.png";
 import { motion } from 'framer-motion';
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -135,7 +136,7 @@ const projects = () => {
                                 type="Redux Project"
 
                                 link="/"
-                                github="/"
+                                github="https://github.com/sumonhasan55/World_News_Portal_Main.git"
 
                             />
 
@@ -143,14 +144,14 @@ const projects = () => {
 
                         <div className="col-span-6 ">
                             <Project
-                                title="Developper Portfolio"
+                                title="Portfolio"
                                 img={Project3}
 
 
-                                type="HTML CSS Project"
+                                type="html & css Project "
 
-                                link="/"
-                                github="/"
+                                link="https://sumon-hasan-portfolio.netlify.app/"
+                                github="https://github.com/sumonhasan55/Sumon-Hasan-Portfolio.git"
 
                             />
 
@@ -166,8 +167,8 @@ const projects = () => {
                                 summery="This is A Online Web design And development service Website."
                                 type="Firebase Authentication Project"
 
-                                link="/"
-                                github="/"
+                                link="https://creative-agency-client-rp.netlify.app/"
+                                github="https://github.com/sumonhasan55/creative-agency-client.git"
 
                             />
                         </div>
@@ -180,21 +181,21 @@ const projects = () => {
 
                                 type="Basic Project"
 
-                                link="/"
-                                github="/"
+                                link="https://electra-mart.netlify.app/"
+                                github="https://github.com/sumonhasan55/Electra-Shop-Tailwindcss.git"
 
                             />
                         </div>
                         <div className="col-span-6">
                             <Project
-                                title="Dentist Care"
-                                img={Project1}
+                                title="Smart-E-Shop"
+                                img={Project6}
 
 
-                                type="Featured Project"
+                                type="Angular Project"
 
-                                link="/"
-                                github="/"
+                                link="https://smart-e-shop-angular.vercel.app/"
+                                github="https://github.com/sumonhasan55/Smart-E-Shop-Angular.git"
 
                             />
                         </div>

@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
       <TransitionEffect />
       <main className="bg-light">
-        <Layout className='pt-0 md:pt-16 sm:pt-8 '>
+        <Layout className='pt-0 pb-24 md:pt-8  sm:pt-8 '>
           <div className='flex items-center justify-between w-full lg:flex-col'
             priority
             sizes="(max-width:768px) 100vw,

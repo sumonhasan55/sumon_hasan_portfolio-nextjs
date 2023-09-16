@@ -56,7 +56,7 @@ const Navbar = () => {
 
     const [mode, setMode] = UseThemeSwitcher()
     return (
-        <header className="relative z-10 flex items-center justify-between w-full px-32 py-8 font-medium dark:text-light lg:px-16 md:px-12 sm:px-8"
+        <header className="relative z-10 flex items-center justify-between w-full px-8 py-8 font-medium dark:text-light lg:px-16 md:px-2 sm:px-8"
         >
             <button className="flex-col items-center justify-center hidden lg:flex" onClick={handleClick}>
                 <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm -translate-y-0.5 ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
