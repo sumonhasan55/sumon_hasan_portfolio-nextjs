@@ -18,7 +18,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             <span className="font-medium capitalize text-dark/75 dark:text-light/75 xs:text-sm">
                 {time} | {address}
             </span>
-            <p className="w-full font-medium md:text-sm ">
+            <p className="w-full font-medium md:text-sm text-justify">
                 {work}
             </p>
         </motion.div>
@@ -44,69 +44,27 @@ const Experience = () => {
                 <ul className="flex flex-col items-start justify-between w-full ml-4 xs:ml-2">
                     <Details
 
-                        position="Software Engineer "
-                        company="Google"
-                        companyLink="www.gooogle.com"
-                        time="2022-Present"
-                        address="Mountain View"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization"
+                        position="Junior Web Developer as Intern  "
+                        company="E-FutureBD"
+                        companyLink="https://www.amaradmission.com/institutes/e-%E2%80%93future-bd/EFBD33"
+                        time="March-2019 to May-2019"
+                        address="Panthapath,Dhaka-1205"
+                        work="Worked on a team for developing university management application client side and server side"
 
 
                     />
                     <Details
 
-                        position="Software Engineer "
-                        company="Google"
-                        companyLink="www.gooogle.com"
+                        position="Junior React Js Developer "
+                        company="Sumon Telecom"
+                        companyLink="www.sumontelecombd.com"
                         time="2022-Present"
-                        address="Mountain View"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization"
-
+                        address="Dhaka-1211"
+                        work="The job of E-Commerce Executive involves a remit of increasing product sales via the company website, improving online conversion rates and promoting products online to make it easier for customers to search and purchase. Responsibilities: Creating online templates. Will be working on computers & with customers."
 
                     />
-                    <Details
-
-                        position="Software Engineer "
-                        company="Google"
-                        companyLink="www.gooogle.com"
-                        time="2022-Present"
-                        address="Mountain View"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization"
-
-
-                    />
-                    <Details
-
-                        position="Software Engineer "
-                        company="Google"
-                        companyLink="www.gooogle.com"
-                        time="2022-Present"
-                        address="Mountain View"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization"
-
-
-                    />
-                    <Details
-
-                        position="Software Engineer "
-                        company="Google"
-                        companyLink="www.gooogle.com"
-                        time="2022-Present"
-                        address="Mountain View"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization"
-
-
-                    />
+                   
+                    
                 </ul>
 
             </div>
