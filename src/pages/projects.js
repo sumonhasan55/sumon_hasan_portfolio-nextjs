@@ -5,9 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Project1 from "../../public/images/projects/dentiscare.png";
-import Project2 from "../../public/images/projects/World_News_Porlat.png";
+import Project2 from "../../public/images/projects/hm-pc-builder.png";
 import Project3 from "../../public/images/projects/Developer-Portfolio.png";
-import Project4 from "../../public/images/projects/creative-agency.png";
+import Project4 from "../../public/images/projects/E-Book-Collection.png";
 import Project5 from "../../public/images/projects/HTML Templete.png";
 import Project6 from "../../public/images/projects/Shhop_Angular.png";
 import { motion } from 'framer-motion';
@@ -28,7 +28,7 @@ const FeturedProjects = ({ type, title, summery, img, link, github }) => {
                 className="w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full"
             >
 
-                <FrammerImage src={img} alt={title} className="w-full h-auto border-2 border-solid shadow-2xl dark:border-light border-dark rounded-xl "
+                <FrammerImage src={img} alt={title} className="w-full lg:h-48 h-56 border-2 border-solid shadow-2xl dark:border-light border-dark rounded-xl "
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2 }}
                 />
@@ -65,7 +65,7 @@ const Project = ({ img, type, title, github, link }) => {
                 >
 
 
-                    <FrammerImage src={img} alt={title} className="w-full h-auto border-2 border-solid shadow-2xl border-dark dark:border-light rounded-xl"
+                    <FrammerImage src={img} alt={title} className="w-full h-48 lg:h-auto border-2 border-solid shadow-2xl border-dark dark:border-light rounded-xl"
                         priority
                         sizes="(max-width:768px) 100vw,
                  (max-width:1200px) 50vw,
@@ -76,7 +76,7 @@ const Project = ({ img, type, title, github, link }) => {
                     />
                 </Link>
                 <div className="flex flex-col items-start justify-between pl-6 full">
-                    <span className="text-xl font-medium text-primary dark:text-primaryDark">{type}</span>
+                    <span className="text-lg font-medium text-primary dark:text-primaryDark">{type}</span>
                     <Link
                         href={link} target="_blank" className="hover:underline underline-offset-2"
 
@@ -129,14 +129,14 @@ const projects = () => {
                      
                         <div className="col-span-6 ">
                             <Project
-                                title="News Portal"
+                                title="PC Builder"
                                 img={Project2}
 
 
-                                type="Redux Project"
+                                type="Nextjs Project"
 
-                                link="/"
-                                github="https://github.com/sumonhasan55/World_News_Portal_Main.git"
+                                link="https://e-books-catalog-client-st.vercel.app/"
+                                github="https://github.com/sumonhasan55/hm-pc-builder-nextjs.git"
 
                             />
 
@@ -148,7 +148,7 @@ const projects = () => {
                                 img={Project3}
 
 
-                                type="html & css Project "
+                                type="HTML CSS "
 
                                 link="https://sumon-hasan-portfolio.netlify.app/"
                                 github="https://github.com/sumonhasan55/Sumon-Hasan-Portfolio.git"
@@ -161,14 +161,14 @@ const projects = () => {
                             <FeturedProjects
 
 
-                                title="Creative Agency"
+                                title="E Book Catelog"
                                 img={Project4}
 
-                                summery="This is A Online Web design And development service Website."
-                                type="Firebase Authentication Project"
+                                summery="This is Book Catelog Web site,Authentic User can search and add new books."
+                                type="React + TypeScript + Vite"
 
-                                link="https://creative-agency-client-rp.netlify.app/"
-                                github="https://github.com/sumonhasan55/creative-agency-client.git"
+                                link="https://e-books-catalog-client.vercel.app/"
+                                github="https://github.com/sumonhasan55/e-books-catalog-client.git"
 
                             />
                         </div>
