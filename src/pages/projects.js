@@ -148,7 +148,7 @@ const projects = () => {
                                 img={Project3}
 
 
-                                type="HTML CSS "
+                                type="HTML CSS Project"
 
                                 link="https://sumon-hasan-portfolio.netlify.app/"
                                 github="https://github.com/sumonhasan55/Sumon-Hasan-Portfolio.git"
