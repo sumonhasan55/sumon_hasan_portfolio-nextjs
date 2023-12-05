@@ -28,7 +28,7 @@ const FeturedProjects = ({ type, title, summery, img, link, github }) => {
                 className="w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full"
             >
 
-                <FrammerImage src={img} alt={title} className="w-full lg:h-48 h-56 border-2 border-solid shadow-2xl dark:border-light border-dark rounded-xl "
+                <FrammerImage src={img} alt={title} className="w-full h-56 border-2 border-solid shadow-2xl lg:h-48 dark:border-light border-dark rounded-xl "
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2 }}
                 />
@@ -65,7 +65,7 @@ const Project = ({ img, type, title, github, link }) => {
                 >
 
 
-                    <FrammerImage src={img} alt={title} className="w-full h-48 lg:h-auto border-2 border-solid shadow-2xl border-dark dark:border-light rounded-xl"
+                    <FrammerImage src={img} alt={title} className="w-full h-48 border-2 border-solid shadow-2xl lg:h-auto border-dark dark:border-light rounded-xl"
                         priority
                         sizes="(max-width:768px) 100vw,
                  (max-width:1200px) 50vw,
@@ -86,7 +86,7 @@ const Project = ({ img, type, title, github, link }) => {
 
 
                 </div>
-                <div className="flex justify-between w-full md:flex-col md:items-center mt-2">
+                <div className="flex justify-between w-full mt-2 md:flex-col md:items-center">
                     <Link href={github} target="_blank" className="w-10"><GithubIcon /></Link>
                     <Link href={link} target="_blank" className="p-2 px-2 ml-4 text-lg font-semibold underline md:text-base">Visit Project</Link>
                 </div>
@@ -148,7 +148,7 @@ const projects = () => {
                                 img={Project3}
 
 
-                                type="HTML&CSS Project"
+                                type="Basic html & css"
 
                                 link="https://sumon-hasan-portfolio.netlify.app/"
                                 github="https://github.com/sumonhasan55/Sumon-Hasan-Portfolio.git"
