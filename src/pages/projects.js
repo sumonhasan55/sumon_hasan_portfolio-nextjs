@@ -9,7 +9,7 @@ import Project2 from "../../public/images/projects/hm-pc-builder.png";
 import Project3 from "../../public/images/projects/Developer-Portfolio.png";
 import Project4 from "../../public/images/projects/E-Book-Collection.png";
 import Project5 from "../../public/images/projects/HTML Templete.png";
-import Project6 from "../../public/images/projects/Shhop_Angular.png";
+import Project6 from "../../public/images/projects/E-Travel-Apps.png";
 import { motion } from 'framer-motion';
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -188,14 +188,14 @@ const projects = () => {
                         </div>
                         <div className="col-span-6">
                             <Project
-                                title="Smart-E-Shop"
+                                title="E-Travel-Apps"
                                 img={Project6}
 
 
-                                type="Angular Project"
+                                type="Responsive Project"
 
-                                link="https://smart-e-shop-angular.vercel.app/"
-                                github="https://github.com/sumonhasan55/Smart-E-Shop-Angular.git"
+                                link="https://e-travel-apps-sumonhasan55.vercel.app/"
+                                github="https://github.com/sumonhasan55/E-Travel-Apps.git"
 
                             />
                         </div>
