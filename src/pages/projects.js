@@ -8,7 +8,7 @@ import Project1 from "../../public/images/projects/dentiscare.png";
 import Project2 from "../../public/images/projects/hm-pc-builder.png";
 import Project3 from "../../public/images/projects/Developer-Portfolio.png";
 import Project4 from "../../public/images/projects/E-Book-Collection.png";
-import Project5 from "../../public/images/projects/HTML Templete.png";
+import Project5 from "../../public/images/projects/mobile_hospital_zone.png";
 import Project6 from "../../public/images/projects/E-Travel-Apps.png";
 import { motion } from 'framer-motion';
 import TransitionEffect from "@/components/TransitionEffect";
@@ -175,14 +175,14 @@ const projects = () => {
                        
                        <div className="col-span-6 ">
                             <Project
-                                title="HTML Templete"
+                                title="E-Mobile-Zone"
                                 img={Project5}
 
 
-                                type="Basic Project"
+                                type="Nextjs Page Router"
 
-                                link="https://electra-mart.netlify.app/"
-                                github="https://github.com/sumonhasan55/Electra-Shop-Tailwindcss.git"
+                                link="https://mobile-hospital-zone-next.vercel.app/"
+                                github="https://github.com/sumonhasan55/mobile-hospital-zone-next.git"
 
                             />
                         </div>
